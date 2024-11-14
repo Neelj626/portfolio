@@ -1,20 +1,24 @@
 import React from 'react'
+import styles from './About.module.css';
 
 import uh_img from '../../Assets/about/uh_logo.png';
+import motorcycle_img from '../../Assets/about/motorcycle.png';
+
 
 export const About = () => {
   return (
-    <section>
-        <div>
-            <h2 >Who I Am</h2>
+    <section className={styles.container}>
+        <div className={styles.content}>
+            <h2 className={styles.title}> Who I Am</h2>
 
             <img 
                 src={uh_img} 
                 alt=""
                 width="192" height="120"
+                className={styles.uhImg}
             />
 
-            <p>
+            <p className={styles.description}>
                 I'm a recent graduate in Computer Science from the 
                 University of Houston, passionate about exploring the 
                 endless possibilities of data science and machine learning. 
@@ -24,29 +28,31 @@ export const About = () => {
             </p>
         </div>
         
-        <div>
-            <h2>My Interests</h2>
-            <p>
+        <div className={styles.content}>
+            <h2 className={styles.title}> My Interests</h2>
+
+            <img 
+                src={motorcycle_img} 
+                width="192" height="120"
+                className={styles.motorcyleImg}
+            />
+
+            <p className={styles.description}>
                 Data Science & Machine Learning: I'm passionate about 
                 building models and working with data to derive actionable 
                 insights.
             </p>
 
-            <p>
+            <p className={styles.description}>
                 Software Development: I Love working across the stack to 
                 design, develop, and deploy full-fledged applications.
             </p>
 
-            <p>
+            <p className={styles.description}>
                 Learning & Growth: I'm always looking to expand my 
                 knowledge and skills — whether it's diving into a new 
                 framework or honing my data analysis abilities.
             </p>
-
-            <img 
-                src="https://clipart-library.com/images/8izngdgrT.png" 
-                width="192" height="120" 
-            />
         </div>
         
     </section>
