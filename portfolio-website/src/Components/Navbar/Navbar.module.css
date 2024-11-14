@@ -58,6 +58,7 @@
         display: block;
         cursor: pointer;
         width: 50px;
+        justify-content: center;
     }
 
     .menuItems {
@@ -77,7 +78,8 @@
     }
 
     .menuItems a {
-        color: whitesmoke;
+        color: burlywood;
+        font-weight: bolder;
     }
 
     .menuOpen {
