@@ -18,17 +18,24 @@ import powerbi_img from "../../Assets/skills/powerbi_image.png";
 export const Experience = () => {
   return (
     <section className={styles.container} id='skills'>
-        <h2 className={styles.title}> Tools That I work With</h2>
-        <div>
+        <div className={styles.content}>
+            <h2 className={styles.title}> Tools That I work With</h2>
+
             <ul className={styles.images}>
                 <li> <img src={javascript_img} alt="" /> </li>
                 <li> <img src={react_img} alt="" /> </li>
                 <li> <img src={node_img} alt="" /> </li>
                 <li> <img src={html_img} alt="" /> </li>
+            </ul>
+
+            <ul className={styles.images}>
                 <li> <img src={css_img} alt="" /> </li>
                 <li> <img src={mongo_img} alt="" /> </li>
                 <li> <img src={c_img} alt="" /> </li>
                 <li> <img src={python_img} alt="" /> </li>
+            </ul>
+
+            <ul className={styles.images}>
                 <li> <img src={r_img} alt="" /> </li>
                 <li> <img src={figma_img} alt="" /> </li>
                 <li> <img src={powerbi_img} alt="" /> </li>

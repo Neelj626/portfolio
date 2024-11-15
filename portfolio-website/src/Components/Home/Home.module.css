@@ -39,7 +39,7 @@
     font-size: 30px;
     font-family: vars(--font-roboto);
     margin-bottom: 52px;
-    text-align: center;
+    text-align: left;
 }
 
 .contactBtn {
@@ -96,6 +96,10 @@
     }
 
     .title {
+        text-align: center;
+    }
+
+    .description {
         text-align: center;
     }
 }
