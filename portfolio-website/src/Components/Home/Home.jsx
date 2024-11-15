@@ -5,7 +5,7 @@ import car_img from '../../Assets/home/car.png';
 
 export const Home = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id='home'>
         <div className={styles.content}>
             <h1 className={styles.title}> Hello, I'm Neel Jhangiani</h1>
             <p className={styles.description}>

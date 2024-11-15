@@ -7,7 +7,7 @@ import motorcycle_img from '../../Assets/about/motorcycle.png';
 
 export const About = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id='about'>
         <div className={styles.content}>
             <h2 className={styles.title}> Who I Am</h2>
 

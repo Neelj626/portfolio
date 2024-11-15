@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 
 import styles from './Navbar.module.css';
 
@@ -9,6 +9,19 @@ import close_icon from '../../Assets/nav/close_icon.png';
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+/*
+  const [sticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+        setSticky(window.scrollY > 200);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  });
+*/
 
   return (
     <nav className={styles.navbar}>
