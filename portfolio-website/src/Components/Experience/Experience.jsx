@@ -41,7 +41,7 @@ export const Experience = () => {
                 <li> <img src={powerbi_img} alt="" /> </li>
             </ul>
             
-            <a className={styles.cvBtn} href="">Download CV</a>
+            <a className={styles.cvBtn} href="Neel_Jhangiani_CV.pdf" download> Download CV</a>
         </div>
     </section>
   )

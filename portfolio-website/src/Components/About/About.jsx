@@ -23,7 +23,7 @@ export const About = () => {
                 University of Houston, passionate about exploring the 
                 endless possibilities of data science and machine learning. 
                 I have a strong foundation in full-stack development and 
-                enjoy creating data-driven applications. Learning new 
+                enjoy creating data driven applications. Learning new 
                 technologies and diving deep into code are what drive me!
             </p>
         </div>
