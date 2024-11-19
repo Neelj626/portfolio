@@ -28,6 +28,8 @@ export const Projects = () => {
             src={data_img} 
             alt="" 
             className={styles.images}
+            width={311}
+            height={200}
           />
 
           <a 
@@ -52,6 +54,8 @@ export const Projects = () => {
             src={leuf_img} 
             alt="" 
             className={styles.images}
+            width={311}
+            height={200}
           />
 
           <a 
@@ -78,6 +82,8 @@ export const Projects = () => {
             src={chef_img} 
             alt="" 
             className={styles.images}
+            width={311}
+            height={200}
           />
 
           <a 
@@ -101,14 +107,19 @@ export const Projects = () => {
             src={hail_img} 
             alt="" 
             className={styles.hailImage}
+            width={311}
+            height={300}
           />
 
           <a 
             className={styles.projectBtn} 
-            href="https://docs.google.com/document/d/1UcG-sdkwvGypY4Vgl64e4ctn4wNl-wT7t6LwKfNK1iE/pub"> See Project
+            href="https://studio.code.org/projects/applab/4gSu9v9QWTp9UAVACLV9nx3MYMYXrE0nd6ba4WHIu-Q"> See Project
           </a>
         </div>
       </div>
+
+      <div className={styles.topBlur} />
+      <div className={styles.bottomBlur} />
     </section>
   )
 }
