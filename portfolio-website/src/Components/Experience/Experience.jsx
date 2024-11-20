@@ -12,6 +12,8 @@ import python_img from "../../Assets/skills/python_image.png";
 import r_img from "../../Assets/skills/r_image.png";
 import figma_img from "../../Assets/skills/figma_image.png";
 import powerbi_img from "../../Assets/skills/powerbi_image.png";
+import resume from "../../Assets/skills/Neel_Jhangiani_CV.pdf";
+
 
 
 
@@ -41,7 +43,7 @@ export const Experience = () => {
                 <li> <img src={powerbi_img} alt="" /> </li>
             </ul>
             
-            <a className={styles.cvBtn} href="Neel_Jhangiani_CV.pdf" download> Download CV</a>
+            <a className={styles.cvBtn} href={resume} download='Neel_jhangiani'> Download CV</a>
         </div>
     </section>
   )

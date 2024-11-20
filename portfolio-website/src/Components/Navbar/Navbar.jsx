@@ -9,26 +9,6 @@ import close_icon from '../../Assets/nav/close_icon.png';
 
 export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
-    const [activeSection, setActiveSection] = useState("home");
-
-    useEffect(() => {
-        const sections = document.querySelectorAll("section");
-
-        const observer = new IntersectionObserver(
-            (entries) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    setActiveSection(entry.target.id);
-                }
-            });
-            },
-            { threshold: 0.5 } // Adjust threshold to detect when 50% of the section is in view
-        );
-
-        sections.forEach((section) => observer.observe(section));
-
-        return () => observer.disconnect();
-    }, []);
 
     return (
         <nav className={styles.navbar}>
@@ -53,28 +33,16 @@ export const Navbar = () => {
                     onClick={() => setMenuOpen(false)}
                 >
                     <li>
-                        <a 
-                            href="#about" 
-                            className={activeSection === "about" ? styles.active : ""}
-                        > About</a>
+                        <a href="#about"> About</a>
                     </li>
                     <li>
-                        <a 
-                            href="#skills" 
-                            className={activeSection === "skills" ? styles.active : ""}
-                        > Skills</a>
+                        <a href="#skills"> Skills</a>
                     </li>
                     <li>
-                        <a 
-                            href="#projects" 
-                            className={activeSection === "projects" ? styles.active : ""}
-                        > Projects</a>
+                        <a href="#projects"> Projects</a>
                     </li>
                     <li>
-                        <a 
-                            href="#contact" 
-                            className={activeSection === "contact" ? styles.active : ""}
-                        > Contact</a>
+                        <a href="#contact"> Contact</a>
                     </li>
                 </ul>
             </div>
