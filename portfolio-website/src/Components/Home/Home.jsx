@@ -10,7 +10,7 @@ export const Home = () => {
             <h1 className={styles.title}> Hello, I'm Neel Jhangiani</h1>
             <p className={styles.description}>
                 Software Developer | 
-                Data Science & Machine Learning Enthusiast
+                Data Science & AI Enthusiast
             </p>
 
             <a 

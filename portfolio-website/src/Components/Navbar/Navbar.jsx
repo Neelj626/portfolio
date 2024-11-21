@@ -16,7 +16,7 @@ export const Navbar = () => {
             <a className={styles.home} href="#home">
                 <img 
                     src={home_button} 
-                    alt=''
+                    alt='Home'
                     onClick={() => setMenuOpen(false)}
                 />
             </a>
@@ -25,7 +25,7 @@ export const Navbar = () => {
                 <img 
                     className={styles.menuBtn} 
                     src={menuOpen ? close_icon : menu_icon} 
-                    alt=""
+                    alt='Menu'
                     onClick={() =>setMenuOpen(!menuOpen)}
                 />
                 <ul 

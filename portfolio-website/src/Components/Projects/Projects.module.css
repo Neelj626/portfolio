@@ -88,7 +88,12 @@
     font-weight: 550;
     padding: 10px 20px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
 
+.projectBtn:hover {
+    background-color: rgb(7, 1, 37); /* New hover color */
+    color: #C5E318; /* Text color change */
 }
 
 

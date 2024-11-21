@@ -34,7 +34,7 @@ export const Projects = () => {
 
           <a 
             className={styles.projectBtn} 
-            href="https://docs.google.com/document/d/1UcG-sdkwvGypY4Vgl64e4ctn4wNl-wT7t6LwKfNK1iE/pub"> See Project
+            href="https://docs.google.com/document/d/1UcG-sdkwvGypY4Vgl64e4ctn4wNl-wT7t6LwKfNK1iE/pub"> View Project
           </a>
         </div>
 
@@ -60,7 +60,7 @@ export const Projects = () => {
 
           <a 
             className={styles.projectBtn} 
-            href="https://github.com/Software-Design-Group38/LEUF"> See Project
+            href="https://github.com/Software-Design-Group38/LEUF"> View Project
           </a>
         </div>
 
@@ -88,7 +88,7 @@ export const Projects = () => {
 
           <a 
             className={styles.projectBtn} 
-            href="https://github.com/francisvtran/COSC-4321-Virtual-Chefs"> See Project
+            href="https://github.com/francisvtran/COSC-4321-Virtual-Chefs"> View Project
           </a>
         </div>
         
@@ -113,7 +113,7 @@ export const Projects = () => {
 
           <a 
             className={styles.projectBtn} 
-            href="https://studio.code.org/projects/applab/4gSu9v9QWTp9UAVACLV9nx3MYMYXrE0nd6ba4WHIu-Q"> See Project
+            href="https://studio.code.org/projects/applab/4gSu9v9QWTp9UAVACLV9nx3MYMYXrE0nd6ba4WHIu-Q"> View Project
           </a>
         </div>
       </div>
